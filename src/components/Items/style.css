@@ -1,0 +1,20 @@
+.items {
+    padding: 16px;
+
+    overflow-y: auto;
+}
+
+.items::-webkit-scrollbar {
+    width: 4px;
+}
+   
+.items::-webkit-scrollbar-track {
+    border-radius: 2px;
+    margin: 2px;
+
+    background-color: rgba(0, 0, 0, 0.05);
+}
+   
+.items::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, .1);
+}

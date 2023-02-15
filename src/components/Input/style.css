@@ -1,0 +1,25 @@
+.input {
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 0 0px 2px rgba(0, 0, 0, 0.2);
+
+    padding: 4px;
+
+    transition: all .2s ease-in-out;
+}
+
+.input:focus {
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 0 0px 2px rgba(73, 149, 255, 0.4);
+
+    padding: 4px;
+}
+
+.input__error {
+    font-size: 12px;
+    margin-top: 4px;
+    color: red;
+}

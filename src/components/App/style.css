@@ -1,0 +1,38 @@
+.app {
+    background-color: #ECF0F1;
+
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app--dark {
+    background-color: black;
+}
+
+.app__theme-changer {
+    position: fixed;
+    top: 16px;
+    left: 16px;
+
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #F84546;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: monospace;
+}
+
+.app__theme-changer--dark {
+    border: 1px solid #F84546;
+    background-color: white;
+    color: #F84546;
+}
